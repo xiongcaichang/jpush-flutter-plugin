@@ -6,7 +6,7 @@ import 'package:platform/platform.dart';
 typedef Future<dynamic> EventHandler(Map<String, dynamic> event);
 
 class JPush {
-  static const String flutter_log = "| JPUSH | Flutter | ";
+  static const String flutter_log = "| PUSH | Flutter | ";
 
   factory JPush() => _instance;
 
@@ -19,7 +19,7 @@ class JPush {
         _platform = platform;
 
   static final JPush _instance =
-      new JPush.private(const MethodChannel('jpush'), const LocalPlatform());
+      new JPush.private(const MethodChannel('mypush'), const LocalPlatform());
 
   EventHandler? _onReceiveNotification;
   EventHandler? _onOpenNotification;

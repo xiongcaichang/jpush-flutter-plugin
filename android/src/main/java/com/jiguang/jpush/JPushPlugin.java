@@ -62,7 +62,7 @@ public class JPushPlugin implements FlutterPlugin, MethodCallHandler {
 
     @Override
     public void onAttachedToEngine(FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "jpush");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "mypush");
         channel.setMethodCallHandler(this);
         context = flutterPluginBinding.getApplicationContext();
     }

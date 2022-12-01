@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:jpush_flutter/jpush_flutter.dart';
+import 'package:mypush_flutter/mypush_flutter.dart';
 
 void main() => runApp(new MyApp());
 

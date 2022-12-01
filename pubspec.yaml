@@ -1,8 +1,7 @@
-name: jpush_flutter
-description: JIGUANG officially supported JPush Flutter plugin (Android & iOS). 极光推送官方支持的 Flutter 插件（Android & iOS）(https://www.jiguang.cn).
+name: mypush_flutter
+description: mypush_flutter
 version: 2.4.0
-# author: xudong.rao <xudong.rao@outlook.com>
-homepage: https://www.jiguang.cn
+homepage: https://mypush_flutter.cn
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -26,8 +25,8 @@ flutter:
       android:
         package: com.jiguang.jpush
         pluginClass: JPushPlugin
-      ios:
-        pluginClass: JPushPlugin
+      # ios:
+      #   pluginClass: JPushPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
